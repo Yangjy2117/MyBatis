@@ -14,6 +14,9 @@ public class Emp implements Serializable {
     private String email;
     private Dept dept;
 
+    //@Value()
+    private String clientName;
+
     @Override
     public String toString() {
         return "Emp{" +
